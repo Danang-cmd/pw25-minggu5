@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Kontak</title>
+  <link href="styleF.css" rel="stylesheet">
+</head>
+<body>
+    <form id="contactForm">
+      <h2>Form Kontak</h2>
+  
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name">
+      <div class="error" id="nameError">Nama wajib diisi.</div>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <div class="error" id="emailError">Email tidak valid.</div>
+  
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+      <div class="error" id="messageError">Pesan tidak boleh kosong.</div>
+  
+      <button type="submit">Kirim</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
